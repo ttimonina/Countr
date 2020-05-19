@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="216">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="215">
+            <objects>
+                <viewController id="216" sceneMemberID="viewController" customClass="CounterView" storyboardIdentifier="CounterView">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="213"/>
+                        <viewControllerLayoutGuide type="bottom" id="214"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="217">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="433" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Counter name">
+                                <rect key="frame" x="40" y="40" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <accessibility key="accessibilityConfiguration" identifier="new_counter_name"/>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint id="434" firstItem="433" firstAttribute="top" secondItem="213" secondAttribute="bottom" constant="20"/>
+                            <constraint id="435" firstItem="433" firstAttribute="leading" secondItem="217" secondAttribute="leadingMargin" constant="20"/>
+                            <constraint id="436" firstAttribute="trailingMargin" secondItem="433" secondAttribute="trailing" constant="20"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="CounterName" destination="433" id="name-outlet-433"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="218" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="-104"/>
+        </scene>
+    </scenes>
+</document>
