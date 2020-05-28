@@ -214,14 +214,30 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5_2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\Plus.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Plus.imageset\Plus%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Plus.imageset\Plus%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Plus.imageset\Plus.png" />
-    <ImageAsset Include="Assets.xcassets\AppLaunchImage.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppLaunchImage.imageset\AppLaunchImage.png" />
-    <ImageAsset Include="Assets.xcassets\AppLaunchImage.imageset\AppLaunchImage%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppLaunchImage.imageset\AppLaunchImage%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Plus.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Plus.imageset\Plus%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Plus.imageset\Plus%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Plus.imageset\Plus.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppLaunchImage.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppLaunchImage.imageset\AppLaunchImage.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppLaunchImage.imageset\AppLaunchImage%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppLaunchImage.imageset\AppLaunchImage%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Countr.Core\Countr.Core.csproj">
